@@ -5,7 +5,7 @@ Repository for Assignment 3
 
 For this assignment, you will need to start with this tabs app starter project and create an MvvM extravaganza.
 Not really, but it needs to be a tabbed MvvM app.  You can repurpose the ViewModel classes if you wish but
-their names should match at least somewhat the content of the page.
+their names should match at least somewhat the content of the page and they need to be MvxViewModel derivatives.
 As I'm sure you guessed, you will need to convert this standard Xamarin app into MvvM using MvvMCross
 You should have 2 screens - the primary one which actually should be an "About" page
 This should consider this page to be a profile page, as if this mobile app was your resume, so 
