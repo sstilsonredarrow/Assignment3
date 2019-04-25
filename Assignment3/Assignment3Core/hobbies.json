@@ -1,0 +1,16 @@
+﻿{
+  "hobbies": [
+    {
+      "HobbyTitle": "Drawing",
+      "HobbyDescription": "I like to draw in my free time. I've been drawing in page margins and on assignments since I was in early elementary school."
+    },
+    {
+      "HobbyTitle": "Programming and Web Design",
+      "HobbyDescription": "I am currently enrolled in Software Development at Midstate. You can see an example of my web programming on the web page tab."
+    },
+    {
+      "HobbyTitle": "Video Games",
+      "HobbyDescription": "I play a lot of video games. Video games are what influenced me to learn how to program."
+    }
+  ]
+}

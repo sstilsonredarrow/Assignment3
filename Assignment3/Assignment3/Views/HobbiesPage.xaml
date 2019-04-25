@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms" 
+             x:Class="Assignment3.Views.HobbiesPage">
+    <ContentPage.Content>
+        <ListView x:Name="HobbiesList" HasUnevenRows="true"
+                  ItemsSource="{Binding Hobbies}" RowHeight="100"
+                  BackgroundColor="#4E617F">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="5">
+                            <Label Text="{Binding HobbyTitle}" VerticalOptions="Center" FontSize="Small" TextColor="White" FontAttributes="Bold"/>
+                            <Label Text="{Binding HobbyDescription}" FontSize="Small" TextColor="White" HorizontalOptions="EndAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</views:MvxContentPage>
