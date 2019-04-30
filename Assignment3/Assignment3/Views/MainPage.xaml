@@ -5,7 +5,7 @@
             xmlns:local="clr-namespace:Assignment3.Views" 
             x:Class="Assignment3.Views.MainPage">
     <TabbedPage.Children>
-        <local:ProfilePage Title="Profile" Icon="tab_about.png" BindingContext="{Binding ProfilePageViewModel}" />
         <local:AboutMePage Title="My Page" Icon="tab_feed.png" BindingContext="{Binding AboutMeViewModel}"/>
+        <local:ProfilePage Title="Profile" Icon="tab_about.png" BindingContext="{Binding ProfileViewModel}" />
     </TabbedPage.Children>
 </views:MvxTabbedPage>

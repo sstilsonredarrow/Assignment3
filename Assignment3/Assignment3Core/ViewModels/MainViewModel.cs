@@ -29,8 +29,8 @@ namespace Assignment3Core.ViewModels
         private async Task ShowInitialViewModels()
         {      
 
-            await _navigationService.Navigate<AboutMeViewModel>();
-            await _navigationService.Navigate<ProfilePageViewModel>();
+           // await _navigationService.Navigate<AboutMeViewModel>();
+           // await _navigationService.Navigate<ProfileViewModel>();
 
         }
     }
