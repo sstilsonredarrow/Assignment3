@@ -1,26 +1,52 @@
 ﻿<Properties StartupConfiguration="{DC63501D-9167-44B0-AA0C-89BCE67C0D6A}|Default">
-  <MonoDevelop.Ide.ItemProperties.Assignment3 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment3/Views/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment3Core/App.cs">
     <Files>
-      <File FileName="Assignment3/Views/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Assignment3/Views/MainPage.xaml" Line="25" Column="14" />
+      <File FileName="Assignment3/Views/MainPage.xaml" Line="8" Column="41" />
+      <File FileName="Assignment3.Android/RootActivity.cs" Line="23" Column="1" />
+      <File FileName="Assignment3.Android/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Assignment3.Android/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="Assignment3.Android/Assets/AboutAssets.txt" Line="1" Column="1" />
+      <File FileName="Assignment3.iOS/AppDelegate.cs" Line="27" Column="12" />
+      <File FileName="Assignment3.iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="Assignment3Core/App.cs" Line="19" Column="1" />
+      <File FileName="Assignment3/App.xaml.cs" Line="17" Column="1" />
+      <File FileName="Assignment3/obj/Debug/netstandard2.0/App.xaml.g.cs" Line="22" Column="1" />
+      <File FileName="Assignment3/Views/MainPage.xaml.cs" Line="13" Column="1" />
+      <File FileName="Assignment3/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment3" expanded="True">
-            <Node name="Assignment3" expanded="True" />
+            <Node name="Assignment3" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="WebsitePage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Assignment3.Android" expanded="True" />
+            <Node name="Assignment3Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="App.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assignment3.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.ItemProperties.Assignment3.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Assignment3.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.Assignment3.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.12E962AF-AF8F-4BF3-8105-7BC99C10A836" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/byusten/source/repos/Assignment3/Assignment3/Assignment3.Android/RootActivity.cs" relfile="Assignment3.Android/RootActivity.cs" line="25" column="1" />
+      <Breakpoint file="/Users/byusten/source/repos/Assignment3/Assignment3/Assignment3.Android/RootActivity.cs" relfile="Assignment3.Android/RootActivity.cs" line="19" column="1" />
+      <Breakpoint file="/Users/byusten/source/repos/Assignment3/Assignment3/Assignment3Core/App.cs" relfile="Assignment3Core/App.cs" line="14" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
