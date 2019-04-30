@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
+using MvvmCross.Forms.Platforms.Ios.Core;
 using UIKit;
 
 namespace Assignment3.iOS
@@ -11,7 +11,8 @@ namespace Assignment3.iOS
     // User Interface of the application, as well as listening (and optionally responding) to 
     // application events from iOS.
     [Register("AppDelegate")]
-    public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+    public partial class AppDelegate : MvxFormsApplicationDelegate<MvxFormsIosSetup<Assignment3Core.App, Assignment3.App>,
+            Assignment3Core.App, Assignment3.App>
     {
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
