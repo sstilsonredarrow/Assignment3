@@ -1,0 +1,35 @@
+Function=xamarin_timezone_get_data
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/NFlaig/Source/Repos/AssignmentThree/Assignment3/Assignment3/Assignment3.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/1-Link/System.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

@@ -1,0 +1,17 @@
+﻿
+{
+  "accomplishments": [
+    {
+      "AccomplishmentTitle": "Drawing",
+      "AccomplishmentDescription": "I like to draw in my free time. I've been drawing in page margins and on assignments since I was in early elementary school."
+    },
+    {
+      "AccomplishmentTitle": "Programming and Web Design",
+      "AccomplishmentDescription": "I am currently enrolled in Software Development at Midstate. You can see an example of my web programming on the web page tab."
+    },
+    {
+      "AccomplishmentTitle": "Video Games",
+      "AccomplishmentDescription": "I play a lot of video games. Video games are what influenced me to learn how to program."
+    }
+  ]
+}

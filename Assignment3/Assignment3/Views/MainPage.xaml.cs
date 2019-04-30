@@ -1,12 +1,12 @@
 ﻿using System;
-
+using MvvmCross.Forms.Presenters.Attributes;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Assignment3.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : TabbedPage
+    [MvxTabbedPagePresentation(TabbedPosition.Root, NoHistory = true)]
+    public partial class MainPage
     {
         public MainPage()
         {

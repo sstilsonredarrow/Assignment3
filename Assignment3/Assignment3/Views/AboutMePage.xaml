@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                      xmlns:local="clr-namespace:Assignment3" 
+                      xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+                      x:Class="Assignment3.Views.AboutMePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Blue">
+        <Grid x:Name="AboutGrid" RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="15"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="142"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="15"/>
+                </Grid.ColumnDefinitions>
+                
+                <BoxView x:Name="test" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="Black"/>
+                
+                <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Text="About Me" HorizontalOptions="CenterAndExpand" 
+                       TextColor="White" FontSize="50" HorizontalTextAlignment="Center" />
+                
+                <Label Grid.Row="3" Grid.Column="1" Text="First Name:" HorizontalOptions="EndAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                <Label Grid.Row="3" Grid.Column="2" Text="{Binding Profile.FirstName}" HorizontalOptions="StartAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                
+                <Label Grid.Row="4" Grid.Column="1" Text="Last Name:" HorizontalOptions="EndAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                <Label Grid.Row="4" Grid.Column="2" Text="{Binding Profile.LastName}" HorizontalOptions="StartAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                
+                <Label Grid.Row="5" Grid.Column="1" Text="Education:" HorizontalOptions="EndAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                <Label Grid.Row="5" Grid.Column="2" Text="{Binding Profile.Education}" HorizontalOptions="StartAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+               
+                <Label Grid.Row="6" Grid.Column="1" Text="Age:" HorizontalOptions="EndAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                <Label Grid.Row="6" Grid.Column="2" Text="{Binding Profile.Age}" HorizontalOptions="StartAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                
+                <Label Grid.Row="7" Grid.Column="1" Text="BirthDate:" HorizontalOptions="EndAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                <Label Grid.Row="7" Grid.Column="2" Text="{Binding Profile.BirthDate}" HorizontalOptions="StartAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                
+                <Label Grid.Row="8" Grid.Column="1" Text="Gender:" HorizontalOptions="EndAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                <Label Grid.Row="8" Grid.Column="2" Text="{Binding Profile.Gender}" HorizontalOptions="StartAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+                
+                <Label Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="2" Text="Accomplishments" HorizontalOptions="CenterAndExpand" 
+                       TextColor="White" FontSize="Medium" HorizontalTextAlignment="Start" />
+            
+        <ListView x:Name="AccomplishmentsList" IsEnabled="false" HeightRequest="48" ItemsSource="{Binding Accomplishments}" 
+                  RowHeight="48" BackgroundColor="Gray" SeparatorColor="Black" Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="5">
+                            <Label Text="{Binding AccomplishmentDescription}" FontSize="Small" TextColor="White" HorizontalOptions="StartAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </Grid>
+    </StackLayout>
+    </ContentPage.Content>
+</views:MvxContentPage>

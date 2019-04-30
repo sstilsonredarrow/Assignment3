@@ -1,22 +1,15 @@
-﻿<Properties StartupConfiguration="{DC63501D-9167-44B0-AA0C-89BCE67C0D6A}|Default">
-  <MonoDevelop.Ide.ItemProperties.Assignment3 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment3/Views/MainPage.xaml">
+﻿<Properties StartupConfiguration="{D7F9011F-C629-4C38-A471-86EA75A2E2FA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment3/ViewModels/ItemDetailViewModel.cs">
     <Files>
-      <File FileName="Assignment3/Views/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Assignment3/Views/MainPage.xaml" Line="25" Column="14" />
+      <File FileName="Assignment3/Services/IDataStore.cs" Line="1" Column="1" />
+      <File FileName="Assignment3/Services/MockDataStore.cs" Line="1" Column="1" />
+      <File FileName="Assignment3/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="Assignment3/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="Assignment3/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Assignment3" expanded="True">
-            <Node name="Assignment3" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assignment3.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.ItemProperties.Assignment3.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Assignment3.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.Assignment3.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8030C5A2-665E-4DF8-9C7B-12DC884A06A4" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
