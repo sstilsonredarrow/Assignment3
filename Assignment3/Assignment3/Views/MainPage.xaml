@@ -1,11 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<views:MvxTabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-            xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"    
-            xmlns:local="clr-namespace:Assignment3.Views" 
-            x:Class="Assignment3.Views.MainPage">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:views="clr-namespace:Assignment3.Views" x:Class="Assignment3.Views.MainPage">
     <TabbedPage.Children>
-        <local:AboutMePage Title="My Page" Icon="tab_feed.png" BindingContext="{Binding AboutMeViewModel}"/>
-        <local:ProfilePage Title="Profile" Icon="tab_about.png" BindingContext="{Binding ProfileViewModel}" />
+        <NavigationPage Title="Browse">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png" />
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:ItemsPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="About">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_about.png" />
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:AboutPage />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
-</views:MvxTabbedPage>
+</TabbedPage>
