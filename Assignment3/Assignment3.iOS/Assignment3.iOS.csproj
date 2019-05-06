@@ -132,23 +132,13 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
-    <PackageReference Include="MvvmCross.Forms">
-      <Version>6.2.3</Version>
-    </PackageReference>
-    <PackageReference Include="Newtonsoft.Json">
-      <Version>12.0.2</Version>
-    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Assignment3\Assignment3.csproj">
       <Project>{2911BB2C-9594-4C82-B008-43296BFF1FF7}</Project>
       <Name>Assignment3</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Assignment3Core\Assignment3Core.csproj">
-      <Project>{C7B9E544-D88C-4B92-813E-BA0FA838FB00}</Project>
-      <Name>Assignment3Core</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
