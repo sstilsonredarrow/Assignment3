@@ -1,0 +1,9 @@
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/bin/Debug/netstandard2.0/profile.json
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/bin/Debug/netstandard2.0/Assignment3Core.deps.json
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/bin/Debug/netstandard2.0/Assignment3Core.dll
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/bin/Debug/netstandard2.0/Assignment3Core.pdb
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/obj/Debug/netstandard2.0/Assignment3Core.csproj.CoreCompileInputs.cache
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/obj/Debug/netstandard2.0/Assignment3Core.AssemblyInfoInputs.cache
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/obj/Debug/netstandard2.0/Assignment3Core.AssemblyInfo.cs
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/obj/Debug/netstandard2.0/Assignment3Core.dll
+/Users/smstilso/source/repos/fromSChool/Assignment3/Assignment3/Assignment3/Assignment3Core/obj/Debug/netstandard2.0/Assignment3Core.pdb

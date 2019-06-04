@@ -1,38 +1,38 @@
-﻿<Properties StartupConfiguration="{D7F9011F-C629-4C38-A471-86EA75A2E2FA}|Default">
+﻿<Properties StartupConfiguration="{DC63501D-9167-44B0-AA0C-89BCE67C0D6A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assignment3Core/Services/ProfileGetter.cs">
     <Files>
-      <File FileName="Assignment3Core/ViewModels/MainViewModel.cs" Line="33" Column="14" />
+      <File FileName="Assignment3Core/ViewModels/MainViewModel.cs" Line="15" Column="1" />
       <File FileName="Assignment3/Views/MainPage.xaml" />
-      <File FileName="Assignment3Core/Services/ProfileGetter.cs" Line="28" Column="1" />
+      <File FileName="Assignment3Core/Services/ProfileGetter.cs" Line="10" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment3" expanded="True">
             <Node name="Assignment3" expanded="True">
-              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True" />
             </Node>
-            <Node name="Assignment3.Android" expanded="True" />
+            <Node name="Assignment3.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
             <Node name="Assignment3Core" expanded="True">
               <Node name="Services" expanded="True">
                 <Node name="ProfileGetter.cs" selected="True" />
               </Node>
               <Node name="ViewModels" expanded="True" />
             </Node>
+            <Node name="XCountry.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assignment3.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.ItemProperties.Assignment3.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.160D485C-F43F-427A-B44F-95720BEB2942" />
+  <MonoDevelop.Ide.ItemProperties.XCountry.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.Assignment3.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9DD6A502-F867-4990-9BD5-CFA5E43F689E" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/sstilson/Source/Repos/Assignment3/Assignment3/Assignment3Core/Services/ProfileGetter.cs" relfile="Assignment3Core/Services/ProfileGetter.cs" line="28" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

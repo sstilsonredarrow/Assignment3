@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3.Android", "Assignment3.Android\Assignment3.Android.csproj", "{DC63501D-9167-44B0-AA0C-89BCE67C0D6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCountry.Android", "Assignment3.Android\XCountry.Android.csproj", "{DC63501D-9167-44B0-AA0C-89BCE67C0D6A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3.iOS", "Assignment3.iOS\Assignment3.iOS.csproj", "{D7F9011F-C629-4C38-A471-86EA75A2E2FA}"
 EndProject
